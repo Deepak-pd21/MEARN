@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <center>
+    <form>
+    <h1>Register Form</h1>
+        <label for="username">
+            Username :
+            <input id="username" type="text" placeholder="username">
+        </label>
+
+        <br><br>
+        <!---passWord-->
+         <label for="password">
+            passWord :
+            <input id="password" type="password" placeholder="password">
+        </label>
+
+        <br><br>
+        <!---email-->
+         <label for="mail">
+            mail :
+            <input id="mail" type="email" placeholder="Email please">
+        </label>
+
+
+        <br><br>
+        <!---experience-->
+         <label for="exp">
+            Experience :
+            <input id="exp" type="number" placeholder="Experience">
+        </label>
+
+        <br><br>
+        <!---address-->
+         <label for="add">
+            Address :
+            <textarea rows="6" cols="10" id="add"></textarea>
+        </label>
+
+        <br><br>
+        
+         <label for="dob">
+           date of birth :
+            <input id="dob" type="date">
+        </label>
+
+        <br><br>
+        <!---gender-->
+         <label>Gender:</label>
+         <input type="radio" id="male" name="gender">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender">
+         <label for="female">Female</label>
+         <input type="radio" id="others" name="gender">
+         <label for="others">others</label>
+
+        <br><br>
+        <!---skills-->
+         <label for="">Hobbies :</label>
+         <input type="checkbox" id="s1">
+          <label for="s1">HTML</label>
+         <input type="checkbox" id="s2">
+          <label for="s2">CSS</label>
+         <input type="checkbox" id="s3">
+          <label for="s3">REACT</label>
+        
+        <br><br>
+        <!--Location dropdoWn-->
+         <label for="location">choose location: </label>
+         <select id="location">
+            <option selected disabled hidden>choose location</option>
+            <option value="kochi">Kochi</option>
+            <option value="kochi">Kollam</option>
+            <option value="kochi">Kasaragod</option>
+            <option value="kochi">Kannur</option>
+            <option value="kochi">Alapuzha</option>
+         </select>
+
+         <br><br>
+         <!--doc upload-->
+         <label for="cv">Upload your CV:
+            <input id="cv" type="file">
+         </label>
+
+         <br><br>
+         <!--range-->
+         <label for="h1">HTML:
+            <input id="h1" type="range">
+         </label>
+
+         <br><br>
+         <!--button-->
+         <button>Submit</button>
+         <input type="button" value="Cancel">
+
+    </form>
+    </center>
+    
+</body>
+</html>

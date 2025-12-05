@@ -1,0 +1,20 @@
+.parent{
+    position: relative;
+}
+.child{
+    width: 300px;
+    height: 350px;
+    border: solid;
+    background-color: rgb(253, 216, 3);
+    position: absolute;
+    top: 0px;
+}
+#d2{
+    z-index:1;
+}
+#d3{
+    z-index: 2;
+}
+img{
+    width: 100%;
+}

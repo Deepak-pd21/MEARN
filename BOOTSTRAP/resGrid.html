@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <!--bootstrp cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--carousel-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+      <img src="https://i.pinimg.com/474x/55/19/58/55195849885b76f8462308ad0318e391.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfiUeM3Ii9iWFjEMLipn-2SgPAr9PhwD7cQpvaOvlGb7g2itAFGdqBe007LvjRRZX4GY&usqp=CAU" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+      <img src="https://i.pinimg.com/1200x/d2/ea/d9/d2ead9054c320e89370ec7821738f108.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<!--card-->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnk_041GBrbpuRwVcny3UOhU_QN2Qtm0MGMjifemBQGWSdbqcEjQsfUph5IzDXzckFwFA&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://img.freepik.com/premium-photo/blue-car-with-hood-up-hood-open-is-open_731790-41911.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://images.unsplash.com/photo-1587750059638-e7e8c43b99fc?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmludGFnZSUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Heading 1</h1>
+          <img
+            class="img-fluid mt-lg-5"
+            src="https://media.istockphoto.com/id/1388965607/photo/vintage-red-car-at-the-sunset-on-el-malecon-havana.jpg?s=612x612&w=0&k=20&c=QATw5bGs8IXXhhvOLmAebRTBdF3t2FSsFkALI1xpghs="
+            alt="none">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quas unde amet temporibus sunt eum architecto similique voluptatum blanditiis, provident eius numquam laboriosam facere atque illum id est ea? Corporis?</p>
+      </div>
+      <div class="col-md-6">
+        <h1>Heading 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sequi consequuntur commodi, totam dolores perspiciatis odit. Officia, minima eius. Ad optio atque, fugiat temporibus esse repellat distinctio eveniet tempora ratione.</p>
+        <hr>
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Heading 3</h3>
+            <img class="img-fluid" src="https://hagerty-media-prod.imgix.net/2022/09/Vintage_Racing_alpine6-scaled-e1663955805220.jpeg?auto=format%2Ccompress&ixlib=php-3.3.0" alt="none">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium deserunt pariatur maiores beatae quibusdam modi, vero eius a corporis corrupti perspiciatis optio harum, ut ullam odio tenetur ducimus nisi repellat.</p>
+            
+          </div>
+          <div class="col-lg-6">
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium deserunt pariatur maiores beatae quibusdam modi, vero eius a corporis corrupti perspiciatis optio harum, ut ullam odio tenetur ducimus nisi repellat.</p> 
+            <img class="img-fluid" src="https://hagerty-media-prod.imgix.net/2022/09/Vintage_Racing_alpine6-scaled-e1663955805220.jpeg?auto=format%2Ccompress&ixlib=php-3.3.0" alt="none">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <!--bootstrap-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"
+  ></script>
+</html>

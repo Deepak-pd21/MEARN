@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(121, 112, 179);
+    border: solid;
+}
+#d2{
+    margin-left: 356px;
+    margin-top: -354px;
+}

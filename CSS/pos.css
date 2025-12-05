@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: cyan;
+    padding: 10px;
+}
+span{
+    font-weight: 700px;
+    font-size: 30px;
+    color: darkgreen;
+}
+h1{
+    padding-top: 0px;
+}

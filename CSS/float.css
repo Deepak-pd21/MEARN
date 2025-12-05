@@ -1,0 +1,15 @@
+.gp{
+    width: 300px;
+    height: 350px;
+    border: solid 1px red;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 10px;
+}
+img{
+    width: 100%;
+}
+#btn{
+    text-align: center;
+}
